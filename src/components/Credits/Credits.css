@@ -1,0 +1,103 @@
+.credits-button {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--button-background);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 1px solid var(--glass-border);
+  z-index: 100;
+  box-shadow: 0 4px 6px var(--shadow-light);
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;
+  font-weight: 600;
+  color: var(--color-text);
+  font-size: 18px;
+}
+
+.credits-button:hover {
+  transform: scale(1.1);
+  background: var(--button-hover);
+}
+
+.credits-modal {
+  max-width: 400px !important;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  background: var(--glass-background-light);
+  border-radius: 12px;
+  text-decoration: none;
+  color: var(--color-text);
+  transition: all 0.2s ease;
+  border: 1px solid var(--glass-border-light);
+}
+
+.social-link:hover {
+  background: var(--hover-background);
+  transform: translateX(4px);
+}
+
+.social-icon {
+  font-size: 20px;
+  min-width: 24px;
+  text-align: center;
+}
+
+.social-name {
+  font-weight: 500;
+  font-size: 15px;
+  min-width: 80px;
+}
+
+.social-username {
+  color: var(--color-text-secondary);
+  font-size: 15px;
+  margin-left: auto;
+}
+
+.copyright {
+  text-align: center;
+  margin: 20px 0;
+  color: var(--color-text-secondary);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .credits-button {
+    bottom: 20px;
+    left: 20px;
+  }
+  
+  .social-link {
+    padding: 10px;
+  }
+  
+  .social-name {
+    font-size: 14px;
+    min-width: 70px;
+  }
+  
+  .social-username {
+    font-size: 14px;
+  }
+}

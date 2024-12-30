@@ -1,0 +1,19 @@
+.dateandtime {
+  display: flex;
+  color: white;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 6rem 0 2rem 0 ;
+}
+
+.time {
+  font-size: 90px;
+  font-weight: bolder;
+}
+
+.date {
+  font-size: 20px;
+  font-weight: 100;
+  margin: -1.5rem 0 0 0;
+}

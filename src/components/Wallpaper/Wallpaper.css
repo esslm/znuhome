@@ -1,0 +1,113 @@
+body {
+  background-color: #101011;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  transition: background-image 0.3s ease;
+}
+
+.wallpaper-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  z-index: 100;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.wallpaper-button:hover {
+  transform: scale(1.1);
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.wallpaper-icon {
+  font-size: 20px;
+}
+
+.wallpaper-modal {
+  max-width: 500px !important;
+}
+
+.wallpaper-options {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.wallpaper-options h4 {
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0 0 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.upload-section, .url-section {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 15px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.file-input {
+  width: 100%;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.file-input::-webkit-file-upload-button {
+  background: #ff0a5c;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  color: white;
+  cursor: pointer;
+  margin-right: 12px;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
+}
+
+.file-input::-webkit-file-upload-button:hover {
+  background: #fa2a6f;
+}
+
+.preset-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.preset-wallpaper {
+  width: 100%;
+  padding-bottom: 56.25%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: 2px solid transparent;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.preset-wallpaper:hover {
+  transform: scale(1.05);
+  border-color: #ff0a5c;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
