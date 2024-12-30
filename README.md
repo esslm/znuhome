@@ -43,8 +43,8 @@ npm run build
 ```
 
 4. Follow [Google docs](https://support.google.com/chrome/answer/95314?hl=en&co=GENIE.Platform%3DDesktop) to add this to your browser, you can use this link : https://znuhome.netlify.app/
-or just watch this :
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0lGdluPgX8Q?si=dUgfMDf-V_6N8AQC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+or just watch this video :
+https://youtu.be/0lGdluPgX8Q
 
 ## Usage
 
